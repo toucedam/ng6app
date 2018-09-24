@@ -21,3 +21,4 @@ export class DetailsComponent implements OnInit {
       data => this.user$ = data 
     );
   }
+ } 

@@ -8,6 +8,11 @@ import { PostsComponent } from './posts/posts.component';
 import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ClassesComponent } from './classes/classes.component';
+import { LessonsComponent } from './lessons/lessons.component';
+import { PracticesComponent } from './practices/practices.component';
+import { ProgressbarComponent } from './progressbar/progressbar.component';
+import { PhotosComponent } from './photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +20,12 @@ import { HttpClientModule } from '@angular/common/http';
     SidebarComponent,
     PostsComponent,
     UsersComponent,
-    DetailsComponent
+    DetailsComponent,
+    ClassesComponent,
+    LessonsComponent,
+    PracticesComponent,
+    ProgressbarComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,
